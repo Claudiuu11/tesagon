@@ -1,0 +1,22 @@
+uuid: 3d87f28f-1313-48eb-ba1e-c37637c2a955
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tesagon
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: tesagon_powered
+theme: tesagon
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,7 @@
+global-styling:
+  css:
+    component:
+      css/tesagon.css: {}
+      css/pages/homepage.min.css: {}
+  js:
+    js/tesagon.js: {}

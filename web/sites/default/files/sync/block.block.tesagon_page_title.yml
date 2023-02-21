@@ -1,0 +1,20 @@
+uuid: 8aaaa4ba-fd03-4d43-92bf-8d71265d363f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tesagon
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: tesagon_page_title
+theme: tesagon
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

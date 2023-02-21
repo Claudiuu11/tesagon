@@ -1,0 +1,22 @@
+uuid: d583f9c0-55eb-439c-9149-dc63ed4ee43d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tesagon
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tesagon_content
+theme: tesagon
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

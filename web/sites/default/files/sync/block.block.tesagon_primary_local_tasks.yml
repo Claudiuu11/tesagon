@@ -1,0 +1,22 @@
+uuid: 07636936-48f1-45ce-a6a6-691c7b069ddc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - tesagon
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: tesagon_primary_local_tasks
+theme: tesagon
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

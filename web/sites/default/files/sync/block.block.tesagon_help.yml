@@ -1,0 +1,22 @@
+uuid: bd4d74cd-7e15-4c19-9d07-7e84e9dbc393
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tesagon
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: tesagon_help
+theme: tesagon
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
